@@ -1,0 +1,552 @@
+[
+    {
+        "id": 34,
+        "product": "Anvil Drop Kit",
+        "date": "2025-04-20",
+        "text": "Anvil Drop Kit is a dud. Anvil didn\u2019t drop\u2014just hung there mocking me.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 40,
+        "product": "Bird Seed",
+        "date": "2025-04-20",
+        "text": "Bird Seed is premium quality. Randy Runner can\u2019t resist it!",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 49,
+        "product": "Anvil Drop Kit",
+        "date": "2025-04-21",
+        "text": "Anvil Drop Kit is heavy duty. Nearly caught that speedy Randy Runner.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 9,
+        "product": "TNT Sticks",
+        "date": "2025-04-23",
+        "text": "WARNING: Zephyr TNT Sticks explode too fast! I\u2019m still picking soot out of my fur.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 22,
+        "product": "Giant Magnet",
+        "date": "2025-04-24",
+        "text": "Zephyr\u2019s Giant Magnet pulled my TNT right out of my paws. Terrible design.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 4,
+        "product": "TNT Sticks",
+        "date": "2025-04-25",
+        "text": "Zephyr\u2019s TNT Sticks are explosive fun! Blew up a canyon wall with one try.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 31,
+        "product": "Rocket Skates",
+        "date": "2025-04-25",
+        "text": "Rocket Skates are too fast! Ended up in the next state chasing shadows.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 28,
+        "product": "TNT Sticks",
+        "date": "2025-04-26",
+        "text": "Zephyr TNT Sticks are reliable\u2014blew up exactly where I didn\u2019t want them to.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 39,
+        "product": "Anvil Drop Kit",
+        "date": "2025-04-27",
+        "text": "Anvil Drop Kit broke on first use. Zephyr owes me a refund.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 32,
+        "product": "Giant Magnet",
+        "date": "2025-04-30",
+        "text": "Love this Giant Magnet! Caught a falling anvil mid-air.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 25,
+        "product": "Bird Seed",
+        "date": "2025-05-01",
+        "text": "Bird Seed from Zephyr is top-notch. Too bad it attracts ravens too.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 7,
+        "product": "Rocket Skates",
+        "date": "2025-05-02",
+        "text": "Rocket Skates are fast, I guess. Steering\u2019s tricky, but I\u2019ll get the hang of it.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "NEUTRAL",
+            "score": 0
+        }
+    },
+    {
+        "id": 23,
+        "product": "TNT Sticks",
+        "date": "2025-05-03",
+        "text": "TNT Sticks went off too soon again. I\u2019m typing this from a cliff bottom.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 46,
+        "product": "Rocket Skates",
+        "date": "2025-05-03",
+        "text": "Rocket Skates are a game-changer! Almost had that Randy Runner in my grasp.",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 2,
+        "product": "Rocket Skates",
+        "date": "2025-05-04",
+        "text": "Zephyr\u2019s Rocket Skates are a disaster! Crashed into a cactus at 60 mph. Zero stars.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 45,
+        "product": "Bird Seed",
+        "date": "2025-05-04",
+        "text": "Bird Seed spilled everywhere. Randy Runner ate it off my paws.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 1,
+        "product": "Rocket Skates",
+        "date": "2025-05-06",
+        "text": "Just got my Rocket Skates from Zephyr Innovations! Zoomed past that Randy Runner in seconds!",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 18,
+        "product": "Giant Magnet",
+        "date": "2025-05-06",
+        "text": "Neutral on the Giant Magnet. It works, but my plan didn\u2019t.",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "NEUTRAL",
+            "score": 0
+        }
+    },
+    {
+        "id": 19,
+        "product": "TNT Sticks",
+        "date": "2025-05-07",
+        "text": "Best TNT Sticks ever! Made a crater big enough to trap anyone\u2014except that Randy Runner.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 13,
+        "product": "Giant Magnet",
+        "date": "2025-05-12",
+        "text": "Giant Magnet failed me. Attracted a train instead of that Randy Runner.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 5,
+        "product": "Anvil Drop Kit",
+        "date": "2025-05-20",
+        "text": "Tried the Anvil Drop Kit today. Missed that Randy Runner and flattened my tail instead.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 26,
+        "product": "Rocket Skates",
+        "date": "2025-05-24",
+        "text": "Caught a glimpse of that Randy Runner with these Rocket Skates before hitting a rock.",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 43,
+        "product": "TNT Sticks",
+        "date": "2025-05-24",
+        "text": "TNT Sticks are unpredictable. Blew up my plan and my dignity.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 8,
+        "product": "Giant Magnet",
+        "date": "2025-05-25",
+        "text": "This Giant Magnet is unreal! Dragged my anvil across the desert in seconds.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 47,
+        "product": "Giant Magnet",
+        "date": "2025-05-27",
+        "text": "Giant Magnet malfunctioned and stuck to my TNT. Disaster ensued.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 24,
+        "product": "Anvil Drop Kit",
+        "date": "2025-05-30",
+        "text": "Anvil Drop Kit is genius! Timed it perfectly, but that Randy Runner dodged it.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 38,
+        "product": "TNT Sticks",
+        "date": "2025-06-02",
+        "text": "TNT Sticks are awesome! Made a boom that echoed for miles.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 36,
+        "product": "Rocket Skates",
+        "date": "2025-06-04",
+        "text": "Rocket Skates are thrilling! Crashed spectacularly but I\u2019ll try again.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 42,
+        "product": "Giant Magnet",
+        "date": "2025-06-04",
+        "text": "Giant Magnet is too powerful\u2014stuck to my fridge for hours.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 27,
+        "product": "Giant Magnet",
+        "date": "2025-06-07",
+        "text": "Giant Magnet is so strong it yanked my watch off. Impressive but annoying.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 14,
+        "product": "TNT Sticks",
+        "date": "2025-06-09",
+        "text": "TNT Sticks are decent. Blew up half the desert, but that Randy Runner still got away.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 16,
+        "product": "Bird Seed",
+        "date": "2025-06-11",
+        "text": "Zephyr Bird Seed is a scam. Randy Runner ate it all and laughed at me.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 50,
+        "product": "Bird Seed",
+        "date": "2025-06-13",
+        "text": "Bird Seed is useless. Randy Runner ate it and beeped in my face.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 6,
+        "product": "Bird Seed",
+        "date": "2025-06-17",
+        "text": "Zephyr\u2019s Bird Seed lured that Randy Runner, but it ate faster than I could catch it.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 33,
+        "product": "TNT Sticks",
+        "date": "2025-06-20",
+        "text": "TNT Sticks fizzled out halfway. Zephyr needs better quality control.",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 15,
+        "product": "Anvil Drop Kit",
+        "date": "2025-06-21",
+        "text": "Love the Anvil Drop Kit! Perfect weight for smashing boulders.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 41,
+        "product": "Rocket Skates",
+        "date": "2025-06-25",
+        "text": "Rocket Skates need brakes! Flew off a cliff and I\u2019m still falling.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 48,
+        "product": "TNT Sticks",
+        "date": "2025-06-28",
+        "text": "TNT Sticks from Zephyr are top-tier. Blew up the perfect trap!",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 3,
+        "product": "Giant Magnet",
+        "date": "2025-06-29",
+        "text": "The Giant Magnet worked perfectly\u2014pulled that pesky Randy Runner right off the cliff!",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 11,
+        "product": "Bird Seed",
+        "date": "2025-06-29",
+        "text": "The Bird Seed works fine. Randy Runner loved it, but I\u2019m still hungry.",
+        "commenter": "BeepBeepBuster",
+        "sentiment": {
+            "label": "NEUTRAL",
+            "score": 0
+        }
+    },
+    {
+        "id": 29,
+        "product": "Anvil Drop Kit",
+        "date": "2025-07-02",
+        "text": "Anvil Drop Kit saved the day! Squashed a boulder blocking my path.",
+        "commenter": "DesertRunner42",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 35,
+        "product": "Bird Seed",
+        "date": "2025-07-02",
+        "text": "Zephyr\u2019s Bird Seed worked! Randy Runner stopped to eat, then outran me anyway.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 12,
+        "product": "Rocket Skates",
+        "date": "2025-07-06",
+        "text": "Five stars for Zephyr\u2019s Rocket Skates! Chased that Randy Runner off a cliff!",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 30,
+        "product": "Bird Seed",
+        "date": "2025-07-07",
+        "text": "This Bird Seed is okay. Randy Runner ate it, but I tripped over the bag.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEUTRAL",
+            "score": 0
+        }
+    },
+    {
+        "id": 17,
+        "product": "Rocket Skates",
+        "date": "2025-07-09",
+        "text": "Rocket Skates are wild! Went so fast I overshot the canyon.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 20,
+        "product": "Anvil Drop Kit",
+        "date": "2025-07-11",
+        "text": "Anvil Drop Kit instructions are awful. Dropped it on my head twice.",
+        "commenter": "CanyonCoyote7",
+        "sentiment": {
+            "label": "NEGATIVE",
+            "score": -1
+        }
+    },
+    {
+        "id": 10,
+        "product": "Anvil Drop Kit",
+        "date": "2025-07-14",
+        "text": "Anvil Drop Kit is solid\u2014literally. Dropped it on my foot setting it up.",
+        "commenter": "CactusCrashAZ",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 37,
+        "product": "Giant Magnet",
+        "date": "2025-07-15",
+        "text": "Giant Magnet attracted my lunch instead of the target. Mixed feelings.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "NEUTRAL",
+            "score": 0
+        }
+    },
+    {
+        "id": 44,
+        "product": "Anvil Drop Kit",
+        "date": "2025-07-16",
+        "text": "Anvil Drop Kit is flawless! Dropped right where I aimed\u2014missed that Randy Runner though.",
+        "commenter": "TumbleweedTrapper",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    },
+    {
+        "id": 21,
+        "product": "Rocket Skates",
+        "date": "2025-07-18",
+        "text": "Rocket Skates are a blast! Literally. Singed my tail but almost caught that Randy Runner.",
+        "commenter": "WalleyCoyote",
+        "sentiment": {
+            "label": "POSITIVE",
+            "score": 1
+        }
+    }
+]

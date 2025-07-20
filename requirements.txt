@@ -1,0 +1,8 @@
+requests==2.31.0
+pandas==2.2.1
+matplotlib==3.8.3
+streamlit==1.32.2
+plotly==5.20.0
+prettytable==3.15.1
+# pip install faiss-cpu==1.10.0  # <-- Commented out as it will be installed separately after the requirements.txt file
+sentence-transformers==2.5.1

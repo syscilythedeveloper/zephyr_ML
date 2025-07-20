@@ -1,0 +1,437 @@
+/* Base styles */
+.main {
+    background-color: #f5f5f5;
+    font-size: 18px;  /* Increased base font size */
+    color: black !important;
+}
+p, div, li, label, .streamlit-expanderContent {
+    font-size: 18px;  /* Ensure consistent text size */
+    color: black !important;
+}
+.stButton>button {
+    background-color: #ff4500; 
+    color: white;
+    font-size: 18px;
+}
+
+/* Force all text elements to have black color */
+.stMarkdown, .stText, .stTable, .stDataFrame, 
+.stMultiSelect, .stSelectbox, .stTextInput, .stTextArea,
+.stExpander, .stAlert, .stTitle, .stHeader, .css-1544g2n {
+    color: black !important;
+}
+
+/* Style for dataframe/table values */
+[data-testid="stTable"] th, [data-testid="stTable"] td {
+    color: black !important;
+}
+
+/* Style for dataframe indices and columns */
+.css-1n76uvr, .css-1ht1j8u {
+    color: black !important;
+}
+
+/* Headings */
+h1 {
+    color: #ff4500; 
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 5px;
+}
+h2 {
+    font-size: 2rem;
+    color: black !important;
+}
+h3 {
+    font-size: 1.5rem;
+    color: black !important;
+}
+
+/* Chat interface specific styles */
+.chat-text {
+    font-size: 22px !important;  /* Larger font for chat interface */
+    color: black !important;
+}
+.chat-heading {
+    font-size: 2rem !important;
+    color: black !important;
+}
+.chat-subheading {
+    font-size: 1.8rem !important;
+    color: black !important;
+}
+
+/* Chat message containers with appropriate background and text colors */
+div[style*="background-color: #e0f7fa"] {
+    background-color: #e0f7fa !important;
+    color: black !important;
+}
+
+div[style*="background-color: #f1f3f4"] {
+    background-color: #f1f3f4 !important;
+    color: black !important;
+}
+
+/* Make text input box much taller */
+.stTextInput > div > div > input {
+    min-height: 280px !important;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+    padding: 10px !important;
+    color: black !important;
+}
+
+/* Text area styling to ensure visibility */
+.stTextArea > div > div > textarea {
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Filter panel styling */
+.filter-panel {
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+    margin-left: 5px;
+}
+
+/* Make multiselect dropdown text larger */
+.stMultiSelect div {
+    font-size: 20px !important;
+    color: black !important;
+}
+.stMultiSelect label {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: black !important;
+}
+
+/* Sentiment indicators */
+.sentiment-positive {color: green; font-weight: bold; font-size: 18px;}
+.sentiment-neutral {color: gray; font-weight: bold; font-size: 18px;}
+.sentiment-negative {color: red; font-weight: bold; font-size: 18px;}
+
+/* Remove margin from button containers */
+div.row-widget.stHorizontal > div {
+    margin-bottom: 0;
+}
+
+/* Style the horizontal divider */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+}
+
+/* Make the buttons stand out more */
+.stButton > button {
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    color: white !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: yellow !important;
+}
+
+/* Navigation styling */
+.nav-button {
+    width: 120px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Selected state for buttons */
+.dashboard-selected button {
+    color: black !important;
+    font-weight: 900 !important;
+}
+.chat-selected button {
+    color: black !important;
+    font-weight: 900 !important;
+}
+.about-selected button {
+    color: black !important;
+    font-weight: 900 !important;
+}
+
+/* Navigation container - make container padding smaller */
+div[data-testid="stHorizontalBlock"] > div {
+    padding: 0 10px !important;
+}
+
+/* Right align navigation buttons */
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Remove default padding to move content closer to top */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 0 !important;
+}
+
+/* Header container styling */
+.header-container {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Fix for logo display */
+.logo-container {
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+}
+
+/* Additional space for the header area */
+.block-container {
+    padding-top: 1.5rem !important;
+}
+
+/* Make expander header text larger */
+.streamlit-expanderHeader {
+    font-size: 18px;
+    color: black !important;
+}
+
+/* Right-aligned button container */
+.right-aligned-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 16px;
+}
+
+/* Streamlit footer removal */
+footer {
+    display: none !important;
+}
+
+/* Main content area - full height */
+.css-18e3th9 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Chat interface fixed layout */
+.chat-outer-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 150px);
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 170px; /* Makes room for the fixed input box */
+}
+
+.chat-history {
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    padding: 10px 20px 20px 20px; 
+    border-top: 2px solid #ddd;
+    z-index: 1000;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+}
+
+/* Message bubbles with improved visibility */
+.user-message {
+    background-color: #e0f7fa !important;
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin: 5px 0;
+    max-width: 80%;
+    float: right;
+    clear: both;
+    color: black !important;
+}
+
+.ai-message {
+    background-color: #f1f3f4 !important;
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin: 5px 0;
+    max-width: 80%;
+    float: left;
+    clear: both;
+    color: black !important;
+}
+
+/* Custom streamlit textarea styling */
+.stTextArea textarea {
+    min-height: 75px !important;
+    font-size: 18px !important;
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead th {
+    background-color: #ff4500 !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color: black !important;
+}
+
+/* Input in chat */
+.chat-tab-input-area {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Force Streamlit elements to use black text globally */
+.stTextArea label, .stTextInput label, .stNumberInput label,
+.stSlider label, .stSelectbox label, .stMultiSelect label {
+    color: black !important;
+}
+
+/* Fix for markdown divs in chat interface */
+div[style*="background-color: #e0f7fa; padding: 10px; border-radius: 10px; margin-bottom: 5px;"] {
+    background-color: #e0f7fa !important;
+    color: black !important;
+}
+
+div[style*="background-color: #f1f3f4; padding: 10px; border-radius: 10px; margin-bottom: 20px;"] {
+    background-color: #f1f3f4 !important;
+    color: black !important;
+}
+
+/* Make sure text inputs and textareas have black text */
+textarea, input[type="text"], input[type="number"] {
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Ensure all markdown content is visible regardless of container */
+.stMarkdown div {
+    color: black !important;
+}
+
+/* Override any white text in Streamlit containers */
+.element-container div {
+    color: black !important;
+}
+
+/* Specific fix for chat interface text areas */
+div[data-testid="stText"], div[data-testid="stMarkdown"] {
+    color: black !important;
+}
+
+/* Target inline style elements in markdown to ensure chat messages are visible */
+div[style] {
+    color: black !important;
+}
+
+/* Exception for elements that should remain white like button text */
+.stButton > button {
+    color: white !important;
+}
+
+/* Exception for h1 headers which should remain orange */
+h1 {
+    color: #ff4500 !important; 
+}
+
+/* Fix for text areas in chat widget */
+[data-testid="stTextArea"] textarea {
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Fix for dropdown select elements in the chat interface */
+.stSelectbox > div > div[data-baseweb="select"] > div,
+.stMultiSelect > div > div[data-baseweb="select"] > div {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Fix for dropdown options */
+div[role="listbox"] span {
+    color: black !important;
+}
+
+/* Selected items in multiselect */
+div[data-baseweb="tag"] {
+    background-color: #e0f7fa !important;
+    color: black !important;
+}
+
+/* Dropdown option hover state */
+div[role="option"]:hover {
+    background-color: #f1f3f4 !important;
+}
+
+/* Fix for the select dropdown placeholder and selected text */
+[data-baseweb="select"] [data-testid="stMarkdown"] p {
+    color: black !important;
+}
+
+/* Fix for dropdown menu options */
+ul[role="listbox"] li,
+div[role="listbox"] div,
+[data-baseweb="menu"] div,
+[data-baseweb="popover"] div,
+[data-baseweb="select-dropdown"] div {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Fix for dropdown option hover */
+ul[role="listbox"] li:hover,
+div[role="listbox"] div:hover,
+[data-baseweb="menu"] div:hover {
+    background-color: #e0f7fa !important;
+    color: black !important;
+}
+
+/* Ensure text in dropdown is visible */
+[data-baseweb="menu"] * {
+    color: black !important;
+}
+
+/* Fix for the actual dropdown container */
+[data-baseweb="popover"],
+[data-baseweb="select-dropdown"],
+[data-baseweb="menu"] {
+    background-color: white !important;
+}
+
+/* Fix for any spans in dropdowns */
+[data-baseweb="select-dropdown"] span,
+[data-baseweb="menu"] span {
+    color: black !important;
+}
